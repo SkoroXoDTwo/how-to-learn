@@ -10,6 +10,7 @@
   border: 1px solid red;
 }
 
+  /* ---------- Шапка сайта ----------  */
 .header {
   height: 100vh;
   min-height: 600px;
@@ -84,6 +85,61 @@
   top: 64px;
   background-color: #2f80ed;
 }
+  /* ---------- Конец Шапка сайта ----------  */
+
+  /* ---------- Первая секция сайта ----------  */
+.description {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  min-height: 200px;
+  border: 1px solid red;
+}
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid red;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 874px;
+  border: 1px solid red;
+}
+
+.two-columns__paragraph {
+  border: 1px solid red;
+  margin: 0 0 30px 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.two-columns__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.two-columns__paragraph:last-child{
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
