@@ -11,12 +11,12 @@
   <div class="page">
 
     <header class="header">
-      <div class="logo logo_place_header"></div>
+      <a class="logo logo_place_header" href="#"></a>
       <h1 class="header__title">Научиться учиться</h1>
-      <h2 class="header_subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a class="header_link" href="#">Узнать →</a>
+      <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+        <a class="header__link" href="#">Узнать →</a>
       </h2>
-      <img class="header__main-illustration" alt="" src="./images/header-image.png">
+      <img class="header__main-illustration" alt="картина опять двойка" src="./images/header-image.png">
       <div class="header__square-pic"></div>
     </header>
 
@@ -98,7 +98,7 @@
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <p class="feynman__subtitle">Выучить и не забыть</p>
       <a class="feynman__link" href="#">Подробнее →</a>
-      <img class="feynman__background-image" alt="" src="./images/feynman.png">
+      <img class="feynman__background-image" alt="Ричард Фейнман" src="./images/feynman.png">
     </section>
 
     <section class="kaufman">
@@ -162,22 +162,34 @@
 
     <footer class="footer">
       <div class="footer__columns">
+
         <div class="footer__column footer__column_content_copyright">
-          <div class="logo logo_place_footer"></div>
+          <a class="logo logo_place_footer" href="#"></a>
           <h2 class="footer__author">&copy; Алексей Белков</h2>
         </div>
+
         <div class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
-          <a class="footer__column-links" href="#">Главная</a>
-          <a class="footer__column-links" href="#">Концепция</a>
-          <a class="footer__column-links" href="#">Наставники</a>
+          <nav>
+            <ul class="footer__column-links">
+              <li><a class="footer__column-link" href="#">Главная</a></li>
+              <li><a class="footer__column-link" href="#">Концепция</a></li>
+              <li><a class="footer__column-link" href="#">Наставники</a></li>
+            </ul>
+          </nav>
         </div>
+
         <div class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
-          <a class="footer__column-links" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook</a>
-          <a class="footer__column-links" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Вконтакте">Вконтакте</a>
-          <a class="footer__column-links" href="#"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram</a>
+          <nav>
+            <ul class="footer__column-links">
+              <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook</a></li>
+              <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Вконтакте">Вконтакте</a></li>
+              <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram</a></li>
+            </ul>
+          </nav>
         </div>
+
       </div>
     </footer>
   </div>
