@@ -269,6 +269,29 @@
   }
   /* ---------- ПР2 конец первой сеции сайта ---------- */
 
+  /* ---------- Секция сайта video ---------- */
+
+  .video {
+    padding-top: 100px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+  }
+
+  .video__iframes {
+    transform: translateY(50px);
+  }
+
+  .video__iframe {
+    margin: 0 20px 0 0;
+    padding: 0;
+    width: 515px;
+    height: 316px;
+  }
+  /* ---------- Конец секции сайта video  ---------- */
+
   /* ---------- Третья секция сайта ----------  */
 .feynman {
   position: relative;
