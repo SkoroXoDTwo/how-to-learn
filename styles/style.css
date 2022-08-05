@@ -74,6 +74,11 @@
   padding: 0;
   text-decoration: none;
   color: #2f80ed;
+  transition: opacity 0.3s;
+}
+
+.header__link:hover {
+  opacity: 0.7;
 }
 
 .header__main-illustration {
@@ -373,13 +378,52 @@
   .khan__buy-link {
     margin: 0;
     padding: 0;
+    height: 100%;
     text-decoration: none;
     line-height: 42px;
     font-size: 30px;
     font-weight: normal;
     color: #2f80ed;
+    transition: opacity 0.3s;
   }
+
+  .khan__buy-link:hover {
+    opacity: 0.7;
+  }
+
   /* ---------- Конец секции сайта khan  ---------- */
+
+  /* ---------- Секция сайта resources  ---------- */
+
+  .resources {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0 217px;
+  }
+
+  .resources__logo-zone {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    margin-top: 80px;
+  }
+
+  .resources__link {
+    transition: opacity 0.3s;
+  }
+
+  .resources__link:hover {
+    opacity: 0.7;
+  }
+
+  .resources__logo {
+    width: 270px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+  }
+  /* ---------- Конец секции сайта resources  ---------- */
 
 
   /* ---------- Третья секция сайта ----------  */
@@ -422,6 +466,11 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  transition: opacity 0.3s;
+}
+
+.feynman__link:hover {
+  opacity: 0.7;
 }
 
 .feynman__background-image {
@@ -561,6 +610,11 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  transition: opacity 0.3s;
+}
+
+.footer__column-link:hover {
+  opacity: 0.7;
 }
 
 .footer__social-icon {
