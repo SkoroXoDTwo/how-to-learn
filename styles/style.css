@@ -229,7 +229,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
   }
 
   .cards {
@@ -282,7 +281,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
   }
 
   .video__iframes {
