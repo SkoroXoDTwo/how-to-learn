@@ -1,0 +1,12 @@
+.feynman__background-image {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../../images/feynman.png");
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
+  z-index: -1;
+}
